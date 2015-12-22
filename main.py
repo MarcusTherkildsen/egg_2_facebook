@@ -45,7 +45,7 @@ def main():
     '''
     Post an image
     '''
-    status = api.put_photo(image=open("D:/Syncthing/Syncthing/Studierelateret/Small_projects/fb_upload_photo/spejlaeg.jpg", 'rb'), album_path=cfg['page_id'] + "/photos")
+    status = api.put_photo(image=open("path_to/my_image.file_type", 'rb'), album_path=cfg['page_id'] + "/photos")
     return status
 
 
